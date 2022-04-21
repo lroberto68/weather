@@ -1,7 +1,7 @@
 City,Time,Temperature,Condition
-città: Susa, TN - datatime: 2022-04-22 00:00:00 - temperatura: 16.03° - condizione: nubi sparse
-città: Susa, TN - datatime: 2022-04-22 03:00:00 - temperatura: 15.61° - condizione: cielo sereno
-città: Susa, TN - datatime: 2022-04-22 06:00:00 - temperatura: 15.99° - condizione: pioggia leggera
+città: Susa, TN - datatime: 2022-04-22 00:00:00 - temperatura: 14.88° - condizione: poche nuvole
+città: Susa, TN - datatime: 2022-04-22 03:00:00 - temperatura: 15.08° - condizione: poche nuvole
+città: Susa, TN - datatime: 2022-04-22 06:00:00 - temperatura: 15.62° - condizione: pioggia leggera
 città: Susa, TN - datatime: 2022-04-22 09:00:00 - temperatura: 19.4° - condizione: cielo sereno
 città: Susa, TN - datatime: 2022-04-22 12:00:00 - temperatura: 22.38° - condizione: cielo sereno
 città: Susa, TN - datatime: 2022-04-22 15:00:00 - temperatura: 22.79° - condizione: nubi sparse

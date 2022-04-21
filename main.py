@@ -13,9 +13,10 @@ print(f"temperatura percepita: {result['main']['feels_like']}")
 print(f"città: {result['name']}") """
 
 print(result['list'])
-file = open("data.txt", "w")
-file.write(f"City,Time,Temperature,Condition\n")
-for d in result['list']:
-    record=f"città: {result['city']['name']}, {result['city']['country']} - datatime: {d['dt_txt']} - temperatura: {d['main']['temp']}° - condizione: {d['weather'][0]['description']}\n"
-    file.write(record)
-file.close()
+
+with open("data.txt", "w") as file:
+    file.write(f"City,Time,Temperature,Condition\n")
+    for d in result['list']:
+        record=f"città: {result['city']['name']}, {result['city']['country']} - datatime: {d['dt_txt']} - temperatura: {d['main']['temp']}° - condizione: {d['weather'][0]['description']}\n"
+        file.write(record)
+        
